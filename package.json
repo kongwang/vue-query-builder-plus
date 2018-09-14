@@ -1,6 +1,6 @@
 {
   "name": "vue-query-builder-plus",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "VueQueryBuilder is an UI component to create queries and filters. refer to https://querybuilder.js.org/index.html and https://dabernathy89.github.io/vue-query-builder/",
   "main": "./dist/VueQueryBuilder.min.js",
   "scripts": {
@@ -12,10 +12,10 @@
     "url": "git+https://github.com/kongwang/vue-query-builder-plus.git"
   },
   "keywords": [
-  "vue",
-  "query",
-  "filter",
-  "querybuilder"
+    "vue",
+    "query",
+    "filter",
+    "querybuilder"
   ],
   "author": "",
   "license": "MIT",
