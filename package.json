@@ -5,8 +5,18 @@
   "main": "./dist/VueQueryBuilder.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build":"webpack --config ./webpack.config.js"
+    "build": "webpack --config ./webpack.config.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kongwang/vue-query-builder-plus.git"
+  },
+  "keywords": [
+  "vue",
+  "query",
+  "filter",
+  "querybuilder"
+  ],
   "author": "",
   "license": "MIT",
   "devDependencies": {
