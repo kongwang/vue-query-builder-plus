@@ -51,7 +51,8 @@ export default {
             { label: "不包含於", value: "NOTIN" }
           ],
           inputType: "text",
-          id: "text-field"
+          id: "text-field",
+          dataType: "string"
         },
         numeric: {
           operators: [
@@ -63,7 +64,8 @@ export default {
             { label: "不等於", value: "NOTEQUALS" }
           ],
           inputType: "number",
-          id: "number-field"
+          id: "number-field",
+          dataType: "numeric"
         },
         date: {
           operators: [
@@ -75,7 +77,8 @@ export default {
             { label: "不等於", value: "NOTEQUALS" }
           ],
           inputType: "date",
-          id: "date-field"
+          id: "date-field",
+          dataType: "date"
         },
         datetime: {
           operators: [
@@ -87,7 +90,8 @@ export default {
             { label: "不等於", value: "NOTEQUALS" }
           ],
           inputType: "datetime",
-          id: "datetime-field"
+          id: "datetime-field",
+          dataType: "datetime"
         },
         radio: {
           operators: [
@@ -96,7 +100,8 @@ export default {
           ],
           choices: [],
           inputType: "radio",
-          id: "radio-field"
+          id: "radio-field",
+          dataType: "boolean"
         },
         checkbox: {
           operators: [
@@ -107,7 +112,8 @@ export default {
           ],
           choices: [],
           inputType: "checkbox",
-          id: "checkbox-field"
+          id: "checkbox-field",
+          dataType: "array"
         },
         select: {
           operators: [
@@ -116,18 +122,8 @@ export default {
           ],
           choices: [],
           inputType: "select",
-          id: "select-field"
-        },
-        "multi-select": {
-          operators: [
-            { label: "等於", value: "EQUALS" },
-            { label: "不等於", value: "NOTEQUALS" },
-            { label: "包含於", value: "IN" },
-            { label: "不包含於", value: "NOTIN" }
-          ],
-          choices: [],
-          inputType: "select",
-          id: "multi-select-field"
+          id: "select-field",
+          dataType: "object"
         }
       }
     };

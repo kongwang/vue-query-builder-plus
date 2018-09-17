@@ -1,5 +1,5 @@
 {
-  "name": "vue-query-builder-plus",
+  "name": "@kongwang/vue-query-builder-plus",
   "version": "1.0.2",
   "description": "VueQueryBuilder is an UI component to create queries and filters. refer to https://querybuilder.js.org/index.html and https://dabernathy89.github.io/vue-query-builder/",
   "main": "./dist/VueQueryBuilder.min.js",
@@ -17,7 +17,7 @@
     "filter",
     "querybuilder"
   ],
-  "author": "",
+  "author": "kong wang <kongwang520@126.com>",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.0",
@@ -41,6 +41,12 @@
     "vue-template-compiler": "^2.5.9",
     "vuex": "^3.0.1",
     "webpack": "^3.9.1",
+    "webpack-cli": "^3.1.0",
     "webpack-dev-server": "^2.9.5"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/kongwang/vue-query-builder-plus/issues"
+  },
+  "homepage": "https://github.com/kongwang/vue-query-builder-plus#readme",
+  "dependencies": {}
 }

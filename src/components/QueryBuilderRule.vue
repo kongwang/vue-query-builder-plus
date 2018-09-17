@@ -96,6 +96,7 @@ export default {
       });
     },
     initValue() {
+      this.query.dateType = this.selectedRuleObj.dateType;
       if (this.query.value === null) {
         const updated_query = deepClone(this.query);
         if (this.selectedRuleObj.inputType === "checkbox") {
